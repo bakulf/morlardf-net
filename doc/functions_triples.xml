@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../doc.xslt"?>
+
+<morla>
+  <title>RDF Documents</title>
+  <subtitle>Aggiungere e modificare triplette semantiche</subtitle>
+  
+  <copyright>
+    <author>Andrea Marchesini</author>
+    <licence>Creative Commons By - Sa</licence>
+  </copyright>
+
+  <section>
+    <p>A RDF triple is a semantic information based on 3 elements:
+    <b>subject</b>, <b>predicate</b> e <b>object</b>. In the Morla's
+    interface, these elements are in 3 different cols.</p>
+
+    <p>Per aggiungere una tripletta ad un documento RDF e' importante avere
+    importato alcuni vocabolari. Grazie a questi vocabolari e' possibile 
+    usarli per dire qualcosa approposito di una risorsa usata come soggtto.</p>
+
+    <p>Per aggiungere una risorsa bisogna cliccare sul pulsante <b>Add</b>
+    nella toolbar di Morla. La nuova finestra che comparira' ci permettera'
+    di inserire una nuova tripletta.</p>
+
+    <p>Il soggetto puo' essere una risorsa oppure il documento stesso. 
+    Una proprieta' puo' essere selezionata in base al vocabolario scelto.
+    Una piccola ricapitololazione mostra informazioni utili per descrivere
+    la proprieta' che si sta scegliendo. Importante e' scegliere anche la
+    tipologia di oggetto ed inserirlo.</p>
+    
+    <p>Alcuni pulsanti della finestra permettono la selezione rapida delle
+    risorse in base a quelle presenti nel documento RDF che si sta creando
+    e ai vocabolari importati.</p>
+
+    <p>E' possibile dire che un oggetto e' in relazione con un soggetto come
+    elemento di una lista. In questo caso Morla automaticamente provvedera'
+    all'autonumerazione e al controllo dei requisiti RDF necessari per una
+    corretta comprensione. Quando si parla di liste infatti, bisogna impostare
+    se queste sono di tipologia Alternative, Liste Ordinate o Liste generiche.
+    </p>
+
+    <p>Le nuove triplette inserire compariranno tra l'elenco.</p>
+
+    <p>Selezionando un elemento delle liste nella schermata principale del
+    programma e' possibile selezionarlo e vedere tutti gli elementi uguali
+    presenti nel documento.</p>
+
+    <p>Cliccando invece col tasto destro del mouse e' possibile selezionare
+    alcune funzioni per la modifica, la cancellazione delle triplette del
+    documento.</p>
+  </section>
+</morla>

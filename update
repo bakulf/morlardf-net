@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+
+<morla>
+  <last_version>0.16.1</last_version>
+  <templates>
+
+    <template>
+      <uri>http://www.morlardf.net/morla#template</uri>
+      <name>Template for templates</name>
+      <description>Template for templates</description>
+      <author>b</author>
+      <version>0.7</version>
+      <link>http://www.morlardf.net/</link>
+      <category>http://www.morlardf.net/templates/category#templates</category>
+    </template>
+
+    <template>
+      <uri>http://www.morlardf.net/morla#input</uri>
+      <name>Template for inputs</name>
+      <description>Input of template for templates</description>
+      <author>b</author>
+      <version>0.7</version>
+      <link>http://www.morlardf.net/</link>
+      <category>http://www.morlardf.net/templates/category#templates</category>
+    </template>
+
+    <template>
+      <uri>http://www.morlardf.net/templates/dc</uri>
+      <name>DublinCore</name>
+      <description>DublinCore template</description>
+      <author>b</author>
+      <version>0.4</version>
+      <link>http://www.morlardf.net/</link>
+    </template>
+
+    <template>
+      <uri>http://www.morlardf.net/templates/rdfs_property</uri>
+      <name>RDFS Property</name>
+      <description>RDFS Property template</description>
+      <author>b</author>
+      <version>0.4</version>
+      <link>http://www.morlardf.net/</link>
+      <category>http://www.morlardf.net/templates/category#rdfs</category>
+    </template>
+
+    <template>
+      <uri>http://www.morlardf.net/templates/rdfs_class</uri>
+      <name>RDFS Class</name>
+      <description>RDFS Class template</description>
+      <author>b</author>
+      <version>0.3</version>
+      <link>http://www.morlardf.net/</link>
+      <category>http://www.morlardf.net/templates/category#rdfs</category>
+    </template>
+
+    <template>
+      <uri>http://www.morlardf.net/templates/foaf_group</uri>
+      <name>FOAF Group</name>
+      <description>FOAF Group template</description>
+      <author>b</author>
+      <version>0.3</version>
+      <link>http://www.morlardf.net/</link>
+      <category>http://www.morlardf.net/templates/category#foaf</category>
+    </template>
+
+    <template>
+      <uri>http://www.morlardf.net/templates/foaf_image</uri>
+      <name>FOAF Image</name>
+      <description>FOAF Image template</description>
+      <author>b</author>
+      <version>0.3</version>
+      <link>http://www.morlardf.net/</link>
+      <category>http://www.morlardf.net/templates/category#foaf</category>
+    </template>
+
+    <template>
+      <uri>http://www.morlardf.net/templates/foaf_person</uri>
+      <name>FOAF Person</name>
+      <description>FOAF Person template</description>
+      <author>b</author>
+      <version>0.3</version>
+      <link>http://www.morlardf.net/</link>
+      <category>http://www.morlardf.net/templates/category#foaf</category>
+    </template>
+
+    <template>
+      <uri>http://www.morlardf.net/templates/foaf_ppd</uri>
+      <name>FOAF Personal Profile Document</name>
+      <description>FOAF Personal Profile Document template</description>
+      <author>b</author>
+      <version>0.3</version>
+      <link>http://www.morlardf.net/</link>
+      <category>http://www.morlardf.net/templates/category#foaf</category>
+    </template>
+
+  </templates>
+
+</morla>
+

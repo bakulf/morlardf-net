@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<rdf:RDF
+   xmlns:morla="http://www.morlardf.net/morla#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+
+  <rdf:Description rdf:nodeID="blank_node:0">
+    <rdfs:label>empty type</rdfs:label>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>1</morla:minCardinality>
+    <morla:typeValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:hasRDFS rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" />
+    <morla:visible>no</morla:visible>
+    <morla:defaultValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:1">
+    <rdfs:label>Label</rdfs:label>
+    <rdfs:comment>A label for this Class</rdfs:comment>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>1</morla:minCardinality>
+    <morla:typeValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:hasRDFS rdf:resource="http://www.w3.org/2000/01/rdf-schema#label" />
+    <morla:visible>yes</morla:visible>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:2">
+    <rdfs:label>Comment</rdfs:label>
+    <rdfs:comment>A comment for this Class</rdfs:comment>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:hasRDFS rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment" />
+    <morla:visible>yes</morla:visible>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:3">
+    <rdfs:label>Is Defined By</rdfs:label>
+    <rdfs:comment>This Class is defined by...</rdfs:comment>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>1</morla:minCardinality>
+    <morla:typeValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:hasRDFS rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" />
+    <morla:visible>yes</morla:visible>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="">
+    <morla:hasInput rdf:nodeID="blank_node:0" />
+    <morla:hasInput rdf:nodeID="blank_node:1" />
+    <morla:hasInput rdf:nodeID="blank_node:2" />
+    <morla:hasInput rdf:nodeID="blank_node:3" />
+    <morla:category rdf:resource="http://www.morlardf.net/templates/category#rdfs" />
+    <rdfs:label>RDFS Class</rdfs:label>
+    <morla:hasVersion>0.3</morla:hasVersion>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Template" />
+  </rdf:Description>
+
+</rdf:RDF>
+

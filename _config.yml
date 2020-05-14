@@ -1,0 +1,10 @@
+# Permalinks
+permalink:        pretty
+
+# Setup
+title: Morla
+url: "https://morlardf.net"
+baseurl:          ""
+
+plugins:
+  - jekyll-sitemap

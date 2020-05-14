@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../doc.xslt"?>
+
+<morla>
+  <title>RDF Documents</title>
+  <subtitle>Importare templates, usarli e crearli</subtitle>
+  
+  <copyright>
+    <author>Andrea Marchesini</author>
+    <licence>Creative Commons By - Sa</licence>
+  </copyright>
+
+  <section>
+    <p>I template permettono l'inserimento rapido di triplette RDF attraverso
+    degli schemi preimpostati. I template si possono facilmente importare
+    rimuovere ed utilizzare attraverso le funzioni presenti nel menu 
+    <i>template</i> o nella toolbar.</p>
+
+    <p>I template sono documenti RDF scritti usando il vocabolario proprio
+    di morla. Questo fa si' che si possano scrivere usando morla e che 
+    e' possibile usare template per scrivere template. La spiegazione
+    su come creare template non e' inserita in questo help ma si puo' 
+    leggere nell'apposita sezione del sito internet.</p>
+
+    <p>Morla offre un sistema facile per controllare l'esistenza di nuovi
+    template attraverso la funzione di update nel menu <i>help</i>. Quando
+    si chiedono aggiornamenti, morla consulta il sito ufficiale del progetto
+    e offre la possibilita' di scaricare tutti i template presenti sul sito
+    e non ancora importati.</p>
+
+  </section>
+</morla>

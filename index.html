@@ -1,0 +1,28 @@
+---
+layout: default
+title: home
+---
+
+<span id="container"></span>
+
+<script>
+
+fetch("{{site.baseurl}}/index.rss").then(r => r.text()).then(xml => {
+  const container = document.getElementById("container");
+
+  let domparser = new DOMParser();
+  let doc = domparser.parseFromString(xml, "application/xml");
+  let items = doc.getElementsByTagName("item");
+  for (let i = 0; i < items.length; ++i) {
+    const item = items[i];
+
+    const h2 = document.createElement("h2");
+    h2.setAttribute("id", item.getElementsByTagName("link")[0].textContent.split("=")[1]);
+    h2.textContent = item.getElementsByTagName("title")[0].textContent;
+    container.appendChild(h2);
+
+    container.innerHTML += item.getElementsByTagName("content:encoded")[0].textContent;
+  }
+});
+
+</script>

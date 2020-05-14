@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  color: #000;
+  font-family: Sans-Serif;
+  font-size: 80%;
+}
+
+div.top {
+  border-bottom: 1px solid #777;
+  background-color: #fff;
+}
+
+div.top h1 {
+  color: #000;
+  font-size: 3.5em;
+  font-weight: normal;
+  padding-left: 0.5em;
+  margin: 0px 0.5em 0px 0px;
+  background-image: url("../images/morla_small.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#left {
+  float: left;
+  width: 13em;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+
+#left img {
+  padding-left: 2em;
+  padding-bottom: 0em;
+  padding-top: 0em;
+}
+
+#menu {
+  border: 1px solid #777;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+#menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+#menu li.item {
+  margin: 0px;
+  padding: 4px;
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+  background: #abc;
+  color: #000;
+  font-weight: bold;
+}
+
+#menu li.item_first {
+  margin: 0px;
+  padding: 4px;
+  border-bottom: 1px solid #777;
+  background: #abc;
+  color: #000;
+  font-weight: bold;
+}
+
+#menu li.item_last {
+  margin: 0px;
+  padding: 4px;
+  border-top: 1px solid #777;
+  background: #abc;
+  color: #000;
+  font-weight: bold;
+}
+
+
+#menu li {
+  margin: 0px;
+  padding: 4px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+div.content {
+  margin-left: 15em;
+  margin-right: 2em;
+}
+
+p {
+  text-align: justify;
+}
+
+#footer {
+  border-top: 1px solid #777;
+  text-align: left;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  clear: both;
+}
+
+#footer a {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.items {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border: 1px solid #777;
+  padding-left: 2px;
+}
+

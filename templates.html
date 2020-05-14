@@ -1,0 +1,55 @@
+---
+layout: default
+title: templates
+---
+
+<h2>RDFS morla</h2>
+Download: <a href="./morla">RDFS 0.7</a><br />
+This RDFS is the template for templates.<br /><br />
+List of templates:<br />
+
+<span id="container"></span>
+<script>
+
+fetch("{{site.baseurl}}/update").then(r => r.text()).then(xml => {
+  const container = document.getElementById("container");
+
+  let domparser = new DOMParser();
+  let doc = domparser.parseFromString(xml, "application/xml");
+  let template = doc.getElementsByTagName("template");
+  for (let i = 0; i < template.length; ++i) {
+    showTemplate(container, template[i]);
+  }
+});
+
+function get(template, what) {
+  const list = template.getElementsByTagName(what);
+  if (list.length === 0) {
+    return "";
+  }
+  return list[0].textContent;
+}
+
+function showTemplate(container, template) {
+  const uri = get(template, "uri");
+  const link = get(template, "link");
+  const category = get(template, "category");
+
+  const html = `
+    <div class="items">
+      Uri: <a href="${uri}">${uri}</a><br />
+      Name: <b>${get(template, "name")}</b><br />
+      Description: <b>${get(template, "description")}</b><br />
+      Author: <b>${get(template, "author")}</b><br />
+      Version: <b>${get(template, "version")}</b><br />
+      Link: <a href="${link}">${link}</a><br />
+      Category: <a href="${category}">${category}</a><br />
+    </div>
+  `;
+
+  container.innerHTML += html;
+}
+
+</script>
+
+If you create a new template, send it to <a href="mailto:baku@morlardf.net">me</a>.<br /><br />

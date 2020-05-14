@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../doc.xslt"?>
+
+<morla>
+  <title>RDF Documents</title>
+  <subtitle>How to see, to change, to import vocabolaries</subtitle>
+  
+  <copyright>
+    <author>Andrea Marchesini</author>
+    <licence>Creative Commons By - Sa</licence>
+  </copyright>
+
+  <section>
+    <p>If you want create new RDF Documents or add RDF Triples a existing
+    document you should understand what the vocabolaries are.
+    When Morla tells you something about vocabolaries, it speaks about
+    <b>RDF Schema Document</b> (<b>RDFS</b>), lists of Classes and Properties
+    to describe resources. If you import in Morla a vocabulary, you can use
+    its properties and its classes in your RDF Documents.</p>
+
+    <p>If you want import a new vocabulary, you must you the menu <i>RDFS</i>.
+    You can import RDFS if you know its URI and if you set a prefix. The
+    prefix is a conventional name like <i>dc</i> for dublincore RDFS.
+    Morla will be able to call that vocabolary inside your RDF Documents.</p>
+
+    <p>In the menu <i>RDFS</i> (or from the toolbar) morla can show the list
+    for imported vocabularies. Use the button if you want remove, add, change
+    a vocabulary.</p>
+
+    <p>You can import a vocabulary also from a RDF Document. On the bottom,
+    in the main window, you can see the list of vocabularies of the current
+    RDF Document. If you click on one of them (right click or double click),
+    a menu appears and you can import that vocabulary.</p>
+
+    <p>Morla imports only valid RDF Document. So, If you recive an error,
+    probaly, that URI is not a valid RDF Document.</p>
+  </section>
+</morla>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../doc.xslt"?>
+
+<morla>
+  <title>RDF Documents</title>
+  <subtitle>How to create graphs about our RDF Documents</subtitle>
+  
+  <copyright>
+    <author>Andrea Marchesini</author>
+    <licence>Creative Commons By - Sa</licence>
+  </copyright>
+
+  <section>
+    <p>A RDF Document is a graph. Sometime it is useful to see these RDF
+    Document like a graph into a image. Morla can create these images and
+    it opens them with the default image viewer of your operating system
+    You can change the image viewer into the preferences window.</p>
+
+    <p>The menu <i>graph</i> contains some options to the graph creating.
+    You can create graph of the current RDF Document, merge more documents
+    in a single graph image, and a lot of other stuff.</p>
+
+    <p>The preferences flags permit you to change colors, sizes, forms
+    and any other elements of the image graphs.</p>
+
+    <p>Morla uses graphviz to create the image files. If you want, morla can
+    generate a source code written in the graphviz's syntax. This option is,
+    of course, into the <i>graph</i> menu.
+    </p>
+
+  </section>
+</morla>

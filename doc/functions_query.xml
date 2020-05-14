@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../doc.xslt"?>
+
+<morla>
+  <title>RDF Documents</title>
+  <subtitle>Queriamo il nostro grafo</subtitle>
+  
+  <copyright>
+    <author>Andrea Marchesini</author>
+    <licence>Creative Commons By - Sa</licence>
+  </copyright>
+
+  <section>
+    <p>Morla supporta query SPARQL e RDQL...</p>
+
+  </section>
+</morla>

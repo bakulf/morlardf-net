@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../doc.xslt"?>
+
+<morla>
+  <title>Technical stuffs and Morla Internals</title>
+  
+  <copyright>
+    <author>Andrea Marchesini</author>
+    <licence>Creative Commons By - Sa</licence>
+  </copyright>
+
+  <section>
+    <title>Here, the list of pages about technical stuffs and morla's internals</title>
+
+    <list>
+      <item><s><link internal="tech_javascript.xml">Javascript Code</link>: how to add javascript code in your templates: list of functions and variables</s></item>
+
+      <item><s><link internal="tech_modules.xml">Modules</link>: How to write new modules for Morla</s></item>
+
+      <item><s><link internal="tech_templates.xml">Templates</link>: How to create your templates</s></item>
+    </list>
+
+  </section>
+
+</morla>

@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<_1:RDF
+   xmlns:morla="http://www.morlardf.net/morla#"
+   xmlns:_1="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:_2="http://www.w3.org/2000/01/rdf-schema#"
+>
+
+  <_1:Description _1:nodeID="blank_node:0">
+    <morla:defaultValue _1:resource="http://xmlns.com/foaf/0.1/Person" />
+    <morla:hasRDFS _1:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>1</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>no</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:label>empty type</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:1">
+    <morla:hasRDFS _1:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>URI of FOAF RDF Document for this person</_2:comment>
+    <_2:label>FOAF RDF Document</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:10">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/based_near" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A location that something is based near, for some broadly human notion of near.</_2:comment>
+    <_2:label>Based Near</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:11">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/workplaceHomepage" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A workplace homepage of some person; the homepage of an organization they work for.</_2:comment>
+    <_2:label>Workplace Homepage</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:12">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/mbox_sha1sum" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the first owner of the mailbox.</_2:comment>
+    <_2:label>sha1sum of a personal mailbox URI name</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:13">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/workInfoHomepage" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A work info homepage of some person; a page about their work for some organization.</_2:comment>
+    <_2:label>Work Info Homepage</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:14">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/schoolHomepage" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A homepage of a school attended by the person.</_2:comment>
+    <_2:label>School Homepage</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:15">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/family_name" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>he family_name of some person.</_2:comment>
+    <_2:label>Family Name</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:16">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/givenname" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>The given name of some person.</_2:comment>
+    <_2:label>Given Name</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:17">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/firstName" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>The first name of a person.</_2:comment>
+    <_2:label>First Name</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:18">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/nick" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).</_2:comment>
+    <_2:label>Nick</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:19">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/title" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>Title (Mr, Mrs, Ms, Dr. etc)</_2:comment>
+    <_2:label>Title</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:2">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/geekcode" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A textual geekcode for this person, see http://www.geekcode.com/geek.html</_2:comment>
+    <_2:label>GeekCode</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:20">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/homepage" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A homepage for this person</_2:comment>
+    <_2:label>HomePage</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:21">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/mbox" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox</_2:comment>
+    <_2:label>Mailbox</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:22">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/img" />
+    <morla:maxCardinality>0</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.morlardf.net/templates/foaf_image" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>An image that can be used to represent this person.</_2:comment>
+    <_2:label>Image</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:23">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/depiction" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A depiction of this person.</_2:comment>
+    <_2:label>Depiction</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:24">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/surname" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>The surname of some person.</_2:comment>
+    <_2:label>Surname</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:25">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/weblog" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A weblog of this person</_2:comment>
+    <_2:label>Weblog</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:26">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/knows" />
+    <morla:maxCardinality>0</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.morlardf.net/templates/foaf_person" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A person known by this person</_2:comment>
+    <_2:label>Knows</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:27">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/topic_interest" />
+    <morla:maxCardinality>0</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A thing of interest to this person.</_2:comment>
+    <_2:label>Interest Topic</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:28">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/publications" />
+    <morla:maxCardinality>0</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.morlardf.net/templates/dc" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A link to the publications of this person.</_2:comment>
+    <_2:label>Publication</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:3">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/myersBriggs" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A Myers Briggs (MBTI) personality classification.</_2:comment>
+    <_2:label>myersBriggs</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:4">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/name" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>1</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A name for this person</_2:comment>
+    <_2:label>Name</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:5">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/dnaChecksum" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A checksum for the DNA of this person</_2:comment>
+    <_2:label>DNA checksum</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:6">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/interest" />
+    <morla:maxCardinality>0</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A page about a topic of interest to this person.</_2:comment>
+    <_2:label>Interest</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:7">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/currentProject" />
+    <morla:maxCardinality>0</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A current project this person works on.</_2:comment>
+    <_2:label>Current Projects</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:8">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/pastProject" />
+    <morla:maxCardinality>0</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A project this person has previously worked on.</_2:comment>
+    <_2:label>Past Projects</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:nodeID="blank_node:9">
+    <morla:hasRDFS _1:resource="http://xmlns.com/foaf/0.1/plan" />
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:typeValue _1:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:visible>yes</morla:visible>
+    <_1:type _1:resource="http://www.morlardf.net/morla#Input" />
+    <_2:comment>A .plan comment, in the tradition of finger and &apos;.plan&apos; files.</_2:comment>
+    <_2:label>Plan</_2:label>
+  </_1:Description>
+
+  <_1:Description _1:about="">
+    <morla:hasVersion>0.3</morla:hasVersion>
+    <morla:category _1:resource="http://www.morlardf.net/templates/category#foaf" />
+    <_1:type _1:resource="http://www.morlardf.net/morla#Template" />
+    <_2:label>FOAF Person</_2:label>
+    <morla:hasInput _1:nodeID="blank_node:0" />
+    <morla:hasInput _1:nodeID="blank_node:1" />
+    <morla:hasInput _1:nodeID="blank_node:4" />
+    <morla:hasInput _1:nodeID="blank_node:18" />
+    <morla:hasInput _1:nodeID="blank_node:19" />
+    <morla:hasInput _1:nodeID="blank_node:20" />
+    <morla:hasInput _1:nodeID="blank_node:21" />
+    <morla:hasInput _1:nodeID="blank_node:12" />
+    <morla:hasInput _1:nodeID="blank_node:22" />
+    <morla:hasInput _1:nodeID="blank_node:23" />
+    <morla:hasInput _1:nodeID="blank_node:24" />
+    <morla:hasInput _1:nodeID="blank_node:15" />
+    <morla:hasInput _1:nodeID="blank_node:16" />
+    <morla:hasInput _1:nodeID="blank_node:17" />
+    <morla:hasInput _1:nodeID="blank_node:25" />
+    <morla:hasInput _1:nodeID="blank_node:26" />
+    <morla:hasInput _1:nodeID="blank_node:6" />
+    <morla:hasInput _1:nodeID="blank_node:7" />
+    <morla:hasInput _1:nodeID="blank_node:8" />
+    <morla:hasInput _1:nodeID="blank_node:9" />
+    <morla:hasInput _1:nodeID="blank_node:10" />
+    <morla:hasInput _1:nodeID="blank_node:11" />
+    <morla:hasInput _1:nodeID="blank_node:13" />
+    <morla:hasInput _1:nodeID="blank_node:14" />
+    <morla:hasInput _1:nodeID="blank_node:27" />
+    <morla:hasInput _1:nodeID="blank_node:28" />
+    <morla:hasInput _1:nodeID="blank_node:2" />
+    <morla:hasInput _1:nodeID="blank_node:3" />
+    <morla:hasInput _1:nodeID="blank_node:5" />
+  </_1:Description>
+
+</_1:RDF>
+

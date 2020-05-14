@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<rdf:RDF
+   xmlns:morla="http://www.morlardf.net/morla#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+
+  <rdf:Description rdf:nodeID="blank_node:0">
+    <rdfs:label>Contributor</rdfs:label>
+    <rdfs:comment>An entity responsible for making contributions to the
+content of the resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/contributor" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:1">
+    <rdfs:label>Coverage</rdfs:label>
+    <rdfs:comment>The extent or scope of the content of the resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/coverage" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:10">
+    <rdfs:label>Right</rdfs:label>
+    <rdfs:comment>Information about rights held in and over the resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/rights" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:11">
+    <rdfs:label>Source</rdfs:label>
+    <rdfs:comment>A reference to a resource from which the present resource
+is derived.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/source" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:12">
+    <rdfs:label>Type</rdfs:label>
+    <rdfs:comment>The nature or genre of the content of the resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/type" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:13">
+    <rdfs:label>Subject</rdfs:label>
+    <rdfs:comment>The topic of the content of the resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/subject" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:14">
+    <rdfs:label>Title</rdfs:label>
+    <rdfs:comment>A name given to the resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/title" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:2">
+    <rdfs:label>Creator</rdfs:label>
+    <rdfs:comment>An entity primarily responsible for making the content of the resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/creator" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:3">
+    <rdfs:label>Date</rdfs:label>
+    <rdfs:comment>A date associated with an event in the life cycle of the
+resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/date" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:4">
+    <rdfs:label>Description</rdfs:label>
+    <rdfs:comment>An account of the content of the resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/description" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:5">
+    <rdfs:label>Format</rdfs:label>
+    <rdfs:comment>The physical or digital manifestation of the resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/format" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:6">
+    <rdfs:label>Identifier</rdfs:label>
+    <rdfs:comment>An unambiguous reference to the resource within a given context.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/identifier" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:7">
+    <rdfs:label>Language</rdfs:label>
+    <rdfs:comment>A language of the intellectual content of the resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/language" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:8">
+    <rdfs:label>Publisher</rdfs:label>
+    <rdfs:comment>An entity responsible for making the resource available</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/publisher" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="blank_node:9">
+    <rdfs:label>Relation</rdfs:label>
+    <rdfs:comment>A reference to a related resource.</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:hasRDFS rdf:resource="http://purl.org/dc/elements/1.1/relation" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.morlardf.net/templates/dc">
+    <morla:hasVersion>0.4</morla:hasVersion>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Template" />
+    <morla:hasInput rdf:nodeID="blank_node:0" />
+    <morla:hasInput rdf:nodeID="blank_node:1" />
+    <morla:hasInput rdf:nodeID="blank_node:2" />
+    <morla:hasInput rdf:nodeID="blank_node:3" />
+    <morla:hasInput rdf:nodeID="blank_node:4" />
+    <morla:hasInput rdf:nodeID="blank_node:5" />
+    <morla:hasInput rdf:nodeID="blank_node:6" />
+    <morla:hasInput rdf:nodeID="blank_node:7" />
+    <morla:hasInput rdf:nodeID="blank_node:8" />
+    <morla:hasInput rdf:nodeID="blank_node:9" />
+    <morla:hasInput rdf:nodeID="blank_node:10" />
+    <morla:hasInput rdf:nodeID="blank_node:11" />
+    <morla:hasInput rdf:nodeID="blank_node:12" />
+    <morla:hasInput rdf:nodeID="blank_node:13" />
+    <morla:hasInput rdf:nodeID="blank_node:14" />
+    <rdfs:label>DublinCore</rdfs:label>
+  </rdf:Description>
+
+</rdf:RDF>
+

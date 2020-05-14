@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../doc.xslt"?>
+
+<morla>
+  <title>RDF Documents</title>
+  <subtitle>Javascript Code</subtitle>
+  
+  <copyright>
+    <author>Andrea Marchesini</author>
+    <licence>Creative Commons By - Sa</licence>
+  </copyright>
+
+  <section>
+    <p>If you want creates modules, you must read the <link external="http://ippolita.net/cgi-bin/cvsweb/morla/src/morla-module.h">morla-module.h</link> and <link external="http://ippolita.net/cgi-bin/cvsweb/morla/modules/test.c">this little test</link>.</p>
+
+    <p>Another important stuff is the config file. With the config file you can set the list of modules and the default module for the opening/saving/viewing procedures.</p>
+
+    <p>This is an example of the config file:
+      <cmd>
+      &lt;?xml version="1.0" encoding="utf-8"?&gt;
+
+      &lt;morla_modules&gt;
+        &lt;module&gt;morla_test&lt;/module&gt;
+        &lt;!--  &lt;module default_open="yes"&gt;morla_test&lt;/module&gt; --&gt;
+        &lt;!--  &lt;module default_save="yes"&gt;morla_test&lt;/module&gt; --&gt;
+        &lt;!--  &lt;module default_open="yes" default_save="yes"&gt;morla_test&lt;/module&gt; --&gt;
+      &lt;/morla_modules&gt;
+      </cmd>
+    </p>
+
+    <p>This file in a GNU/Linux/*BSD OS is into ${prefix}/lib/morla (e.g.: /usr/lib/morla/index.xml) and in a Windows OS: ${app}/modules (e.g.: C:\Program Files\Morla\modules\index.xml)</p>
+  </section>
+</morla>

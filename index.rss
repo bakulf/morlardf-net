@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel rdf:about="http://www.morlardf.net/">
+    <title>Morla Project</title>
+    <description>Morla is a multiplatform editor of RDF documents.</description>
+    <link>http://www.morlardf.net/</link>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_22" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_21" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_20" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_19" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_18" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_17" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_16" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_15" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_14" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_13" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_12" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_11" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_10" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_9" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_8" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_7" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_6" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_5" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_4" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_3" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_2" />
+        <rdf:li rdf:resource="http://www.morlardf.net/#id=news_1" />
+      </rdf:Seq>
+    </items>
+  </channel>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_22">
+    <title>2011 02 07 Morla 0.16.1</title>
+    <link>http://www.morlardf.net/#id=news_22</link>
+    <description>Morla can compile on Linux again. Removed some old gtk flag.</description>
+    <content:encoded><![CDATA[
+      <p>This is a bug fix release. Morla compiles on linux again. I removed some old gtk flag.</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_21">
+    <title>2008 07 30 Morla 0.16</title>
+    <link>http://www.morlardf.net/#id=news_21</link>
+    <description>This is a bug fix release: GTK+ 2.12.8 on Windows, Rasqal 0.9.16 on Linux.</description>
+    <content:encoded><![CDATA[
+      <p>This is a bug fix release:</p>
+      <ul>
+        <li>The Windows release uses GTK+ 2.12.18</li>
+	<li>Rasqal 0.9.16 supported</li>
+      </ul>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_20">
+    <title>2008 03 10 Morla 0.15</title>
+    <link>http://www.morlardf.net/#id=news_20</link>
+    <description>This is a bug fix release: GTK+ 2.10 on Windows and some bug fixed.</description>
+    <content:encoded><![CDATA[
+      <p>This is a bug fix release:</p>
+      <ul>
+        <li>The Windows release uses GTK+ 2.10</li>
+	<li>Some bug fixed</li>
+      </ul>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_19">
+    <title>2008 01 20 Morla 0.14</title>
+    <link>http://www.morlardf.net/#id=news_19</link>
+    <description>This is a bug fix release: It is updated to the new GTK+ 2.12 API for tooltips; SPARQL query check; Some piece of code for the native darwin port</description>
+    <content:encoded><![CDATA[
+      <p>This is a bug fix release</p>
+      <ul>
+        <li>It is updated to the new GTK+ 2.12 API for tooltips</li>
+	<li>SPARQL query check</li>
+	<li>Some piece of code for the native darkwin port</li>
+      </ul>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_18">
+    <title>2007 07 23 Morla-0.13-1 for Mac OS X</title>
+    <link>http://www.morlardf.net/#id=news_18</link>
+    <description>The DMG package 0.13 for Mac OS X doesn't have the bootsplash and other important images. It was because that release was compiled with wrong paths. This release fixes the problem but we haven't a new release of Morla: It is not a bug of Morla but it's only a bug about the DMG package.</description>
+    <content:encoded><![CDATA[
+      <p>The DMG package 0.13 for Mac OS X doesn't have the bootsplash and other important images. It was because that release was compiled with wrong paths. This release fixes the problem but we haven't a new release of Morla: It is not a bug of Morla but it's only a bug about the DMG package.</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_17">
+    <title>2007 07 23 morla 0.13 released!</title>
+    <link>http://www.morlardf.net/#id=news_17</link>
+    <description>Morla 0.13 is for MacOSX, GNU/Linux and Win32. For the Windows and Linux users, this release is only a bug fixes release but now the MacOSX users have a new tool for their operating system.</description>
+    <content:encoded><![CDATA[
+      <p>Morla 0.13 is for MacOSX, GNU/Linux and Win32. For the Windows and Linux users, this release is only a bug fixes release but now the MacOSX users have a new tool for their operating system.</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_16">
+    <title>2007 07 16 morla for MacOSX (Intel)</title>
+    <link>http://www.morlardf.net/#id=news_16</link>
+    <description>Morla for MacOSX exists! (but it is unstable). A stable release of Morla for MacOSX (based on X11) will be released the next week.</description>
+    <content:encoded><![CDATA[
+      <p>Morla for MacOSX exists! (but it is unstable). A stable release of Morla for MacOSX (based on X11) will be released the next week.</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_15">
+    <title>2007 07 04 morla 0.12 and http://www.morlardf.net - a lot of news for the morla users</title>
+    <link>http://www.morlardf.net/#id=news_15</link>
+    <description>Morla 0.12 is really more powerful than the previous release. These are the principal news of this release: The SPARQL query window supports the highlighting; The highlightings are configurable into the preferences system; The template can contain javascript: you can create complex templates with validations, alerts, pop-ups, confermations, etc...; Modules: create your modules for the save, open e view procedures!;For the Gnome users, morla uses gconf to get the proxy setting;</description>
+    <content:encoded><![CDATA[
+      <p>Morla 0.12 is really more powerful than the previous release. These are the principal news of this release:</p>
+      <ul>
+        <li>The SPARQL query window supports the <b>highlighting</b></li>
+	<li>The highlightings are configurable into the preferences system</li>
+	<li>The template can contain <b>javascript</b>: you can create complex templates with validations, alerts, pop-ups, confermations, etc... Read the documentation: you can find examples and documentations</li>
+	<li><b>Modules</b>: create your modules for the save, open e view procedures! How to create modules is written in the documentation pages</li>
+	<li>For the Gnome users, morla uses <b>gconf</b> to get the proxy setting</li>
+      </ul>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_14">
+    <title>2007 04 03 morla 0.11 is out!</title>
+    <link>http://www.morlardf.net/#id=news_14</link>
+    <description>Morla 0.11 supports CACerts and it uses the lastest libnxml (0.17.1). This release has some new feature about the graphic interface and about the preferences flags. The MORLA vocabulary has the the names of the properties in lower case format.</description>
+    <content:encoded><![CDATA[
+      <p>Morla 0.11 supports <b>CACerts</b> and it uses the lastest <b>libnxml (0.17.1)</b>. This release has some new feature about the graphic interface and about the preferences flags. The MORLA vocabulary has the the names of the properties in lower case format.</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_13">
+    <title>2006 11 05 morla 0.10.2 supports proxy and http authentications</title>
+    <link>http://www.morlardf.net/#id=news_13</link>
+    <description>Morla 0.10.2 is out and, with the last libnxml (0.15), it supports proxies, authentications, SSL client certificates.</description>
+    <content:encoded><![CDATA[
+    <p>Morla 0.10.2 is out and, with the last libnxml (0.15), it supports proxies, authentications, SSL client certificates.</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_12">
+    <title>2006 10 26 morla 0.10.1 out!</title>
+    <link>http://www.morlardf.net/#id=news_12</link>
+    <description>Morla 0.10.1 fixes one big bug of 0.10 release and uses the lastest libnxml (0.14).</description>
+    <content:encoded><![CDATA[
+    <p>Morla 0.10.1 fixes one big bug of 0.10.1 release and uses the lastest libnxml (0.14).</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_11">
+    <title>2006 10 23 morla 0.10 released</title>
+    <link>http://www.morlardf.net/#id=news_11</link>
+    <description>Morla 0.10 is full of news! After some bug fixed, the principal news are: 1. this release supports queries in SPARQL and RDQL languages. So, you can try to query your RDF Document, save your queries, restore them and open the results as RDF Documents; 2. morla 0.10 has a complete datatypes engine. Now you can set a datatype to any literal object and validate them; 3. Also the templates have datatypes and on your new templates you can set the literal inputs with/without datatypes and languages and for each inputs set default values. With this release you can start morla with a precise template as default and without Morla's UI.  About new features, ideas and bugs, please, visit the morla's bugtrack.</description>
+    <content:encoded><![CDATA[
+<p>Morla 0.10 is full of news! After some bug fixed, the principal news are:</p>
+<ul> <li>this release supports queries in <a href="http://www.w3.org/TR/rdf-sparql-query/">SPARQL</a> and <a href="http://www.w3.org/Submission/RDQL/">RDQL</a> languages. So, you can try to query your RDF Document, save your queries, restore them and open the results as RDF Documents;</li>
+<li>morla 0.10 has a complete datatypes engine. Now you can set a datatype to any literal object and validate them;</li>
+<li>Also the templates have datatypes and on your new templates you can set the literal inputs with/without datatypes and languages and for each inputs set default values. With this release you can start morla with a precise template as default and without Morla's UI.</li>
+</ul>
+<p>About new features, ideas and bugs, please, visit the morla's <a href="http://www.ippolita.net/bugs/">bugtrack</a>.</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_10">
+    <title>2006 09 21 morla's bugzilla</title>
+    <link>http://www.morlardf.net/#id=news_10</link>
+    <description>Today, morla has a Mantis bug tracker. It's on ippolita.net. You can create new issues about desideratas, bugs, and so on a free. Go on http://www.ippolita.net/bugs/!</description>
+    <content:encoded><![CDATA[
+<p>Today, morla has a Mantis bug Tracker. It's on ippolita.net. You can create new issues about desideratas, bugs, and so on a free. Go on <a href="http://www.ippolita.net/bugs/">http://www.ippolita.net/bugs/</a>!</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_9">
+    <title>2006 06 19 morla 0.9 is out!</title>
+    <link>http://www.morlardf.net/#id=news_9</link>
+    <description>With Morla 0.9 you can ask informations about any resources and blank nodes and see the explosion of this element until the root rdf:Class and/or owl:Class.</description>
+    <content:encoded><![CDATA[
+<p>With Morla 0.9 you can ask informations about any resources and blank nodes and see the explosion of this element until the root <b>rdf:Class</b> and/or <b>owl:Class</b>.</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_8">
+    <title>2006 05 23 morla 0.8 is out!</title>
+    <link>http://www.morlardf.net/#id=news_8</link>
+    <description>The release 0.8 of Morla project has many news. This release supports ntriples and turtle formats for RDF documents; There is a complete error report for not valid documents; Morla now suggest you the correct extension of your RDF document; You can use the templates as editing instrument and not only for creating new documents.</description>
+    <content:encoded><![CDATA[
+<p>
+The release 0.8 of Morla project has many news:
+</p>
+<ul>
+<li>This release supports ntriples and turtle formats for RDF documents;</li>
+<li>There is a complete error report for not valid documents;</li>
+<li>Morla now suggest you the correct extension of your RDF document;</li>
+<li>You can use the templates as editing instrument and not only for creating new documents.</li>
+</ul>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_7">
+    <title>2006 05 03 - DublinCore and RDFS property updated</title>
+    <link>http://www.morlardf.net/#id=news_7</link>
+    <description>Now, these templates use the vocabulary Morla 0.4 and any inputs have the cardinality value.</description>
+    <content:encoded><![CDATA[
+<p>
+Now, these templates use the vocabulary Morla 0.4 and any inputs have the cardinality value.
+</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_6">
+    <title>2006 04 29 - Morla 0.7 released!</title>
+    <link>http://www.morlardf.net/#id=news_6</link>
+    <description>The templates for morla 0.7 support recursivity and cardinalty of inputs. With this release of morla you can use templates more powerful like the new FOAF person, FOAF Image and FOAF Group. In the navigator you can require information about the property of RDF triples.</description>
+    <content:encoded><![CDATA[
+<p>
+The templates for morla 0.7 support recursivity and cardinalty of inputs. With this release of morla you can use templates more powerful like the new FOAF person, FOAF Image and FOAF Group. In the navigator you can require information about the property of RDF triples.
+</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_5">
+    <title>2006 04 08 - Morla 0.6 released!</title>
+    <link>http://www.morlardf.net/#id=news_5</link>
+    <description>Morla Release 0.6 has the gettext support and translation in Italian and English. The source code of morla has not a gtk and glib deprecated elements.</description>
+    <content:encoded><![CDATA[
+<p>
+Morla Release 0.6 has the gettext support and translation in Italian and English. The source code of morla has not a gtk and glib deprecated elements.
+</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_4">
+    <title>2006 03 23 - Morla 0.5 released!</title>
+    <link>http://www.morlardf.net/#id=news_4</link>
+    <description>This release has a new bootsplash, a new about dialog and a little bugfix in the help XSLT+XML parser. Morla 0.5 for win32 is compiled with the last libnxml.</description>
+    <content:encoded><![CDATA[
+<p>
+This release has a new bootsplash, a new about dialog and a little bugfix in the help XSLT+XML parser.
+Morla 0.5 for win32 is compiled with the last <a href="https://github.com/bakulf/libnxml/">libnxml</a>.
+</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_3">
+    <title>2006 03 16 - Morla 0.4 released!</title>
+    <link>http://www.morlardf.net/#id=news_3</link>
+    <description>Morla Release 0.4 is a stable and ready-to-use software. With this release, you can create every type of RDF document uptaking a comfortable online help, a history of last opened documents and a complete and advanced preferences system. Morla 0.4 is released as well as for windows and GNU/Linux and is fully integrated with both operating systems. All the help pages is retrieved from the official website; they're written in XML and visualized with XSLT in HTML format. So, it's easy to change or expand every pages. If you're interested in morla project and you want to help for documentation, templates, coding, testing, write me a feedback via email.</description>
+    <content:encoded><![CDATA[
+<p>
+Morla Release 0.4 is a stable and ready-to-use software. With this release,
+you can create every type of RDF document uptaking a comfortable online
+help, a history of last opened documents and a complete and advanced
+preferences system.
+</p>
+
+<p>
+Morla 0.4 is released as well as for windows and GNU/Linux and is fully
+integrated with both operating systems.
+</p>
+
+<p>
+All the help pages is retrieved from the official website; they're written
+in XML and visualized with XSLT in HTML format. So, it's easy to change
+or expand every pages.
+</p>
+
+<p>
+If you're interested in morla project and you want to help for
+documentation, templates, coding, testing, write
+<a href="mailto:baku@morlardf.net">me</a> a feedback via email.
+</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_2">
+    <title>2006 02 16 - Morla 0.3 released (Windows and GNU/Linux version)</title>
+    <link>http://www.morlardf.net/#id=news_2</link>
+    <description>The release 0.3 has categories in templates, tooltips in different languages, a new layout for graphs, merging of RDF documents, and so on. Try this new release and send me feedback, templates, or links to your RDFS vocabulary documents. Any template will be insert into update system of morla.</description>
+    <content:encoded><![CDATA[
+<p>
+The release 0.3 has categories in templates, tooltips in different
+languages, a new layout for graphs, merging of RDF documents, and so on.
+</p>
+
+<p>
+Try this new release and send
+<a href="mailto:baku@morlardf.net">me</a> feedback, templates,
+or links to your RDFS vocabulary documents. Any template will be insert into
+update system of morla.
+</p>
+    ]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://www.morlardf.net/#id=news_1">
+    <title>2006 01 08 - Morla 0.2 released!</title>
+    <link>http://www.morlardf.net/#id=news_1</link>
+    <description>Morla is an editor of RDF documents, written in C for the GNU/Linux operating system. It is based on libnxml and librdf libraries. With Morla you can manage more RDF documents simultaneously, visualize graphs and use templates for quick writing. With Morla you can import RDFS documents and use its content to write new RDF triples. Templates are also RDF documents and they make Morla easily personalizeble and expandable. You can also use Morla as RDF navigator, wandering among the net knots of the RDF documents present on internet exactly as we are used to do with normalbrowsers. Morla is a FreeSoftware project released under license GPL v2.0. For infos write to baku _at_ morlardf _dot_ net or look at the page support.</description>
+    <content:encoded><![CDATA[
+<p>
+Morla is an editor of RDF documents, written in C for the GNU/Linux operating
+system. It is based on
+<a href="https://github.com/bakulf/libnxml/">libnxml</a> and
+<a href="http://librdf.org">librdf</a> libraries. With Morla you can
+manage more RDF documents simultaneously, visualize graphs and use templates
+for quick writing.
+</p>
+
+<p>
+With Morla you can import RDFS documents and use its content to write new
+RDF triples. Templates are also RDF documents and they make Morla easily
+personalizeble and expandable.
+</p>
+
+<p>
+You can also use Morla as RDF navigator, wandering among the net knots of the
+RDF documents present on internet exactly as we are used to do with normal
+browsers.
+</p>
+
+<p>
+Morla is a FreeSoftware project released under license GPL v2.0.
+</p>
+
+<p>
+For infos write to <a href="mailto:baku@morlardf.net">baku _at_ morlardf _dot_ net</a> or look at the <a href="http://www.morlardf.net/support">page support</a>.
+</p>
+    ]]></content:encoded>
+  </item>
+
+</rdf:RDF>

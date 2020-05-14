@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../doc.xslt"?>
+
+<morla>
+  <title>RDF Documents</title>
+  <subtitle>How to surf between the RDF triples</subtitle>
+  
+  <copyright>
+    <author>Andrea Marchesini</author>
+    <licence>Creative Commons By - Sa</licence>
+  </copyright>
+
+  <section>
+    <p>A web browser works with HTML pages and it permits you to surf
+    between the links. Morla can do it with the RDF triples so you can use
+    this software if you want see the RDF document like links between
+    subjects, properties and objects.</p>
+
+    <p>With normal click, you can surf the RDF Documents like web pages,
+    open URIs with a web browser, open these URIs into morla, new tabs,
+    new windows, etc. etc. etc...</p>
+
+    <p>The morla's navigator suppots history, multi tabs, and the common
+    functions of a normal web browser.</p>
+
+  </section>
+</morla>

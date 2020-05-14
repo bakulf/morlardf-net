@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../doc.xslt"?>
+
+<morla>
+  <title>RDF Documents</title>
+  <subtitle>how to open local files or URIs</subtitle>
+  
+  <copyright>
+    <author>Andrea Marchesini</author>
+    <licence>Creative Commons By - Sa</licence>
+  </copyright>
+
+  <section>
+    <p>You can open RDF Documents with morla's menu. From the <i>file</i>
+    menu item, you can open local files and remote documents on http protocol.
+    </p>
+
+    <p>Another function searchs RDF Documents inside a html page.  Morla is
+    able to search RDF Documents in web pages on HTTP protocol. It parses
+    the content of these pages and it puts the results in two different lists.
+    The first one has name <b>meta</b> the the other one, <b>other</b>.
+    In the first list you can find the RDF Documents from the HTML header of
+    the web page. In the other list, there are the other results based on
+    the file extensions.</p>
+
+    <p>You can also exec Morla with some arguments. If these arguments are
+    local files or URIs, Morla will try to open them in different tabs.
+    </p>
+
+    <p>About the Morla's arguments, read the functions page.</p>
+
+  </section>
+</morla>

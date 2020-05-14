@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<rdf:RDF
+   xmlns:morla="http://www.morlardf.net/morla#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+
+  <rdf:Description rdf:nodeID="comment">
+    <rdfs:label>comment</rdfs:label>
+    <rdfs:comment>set a comment</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:typeValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:hasRDFS rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment" />
+    <morla:visible>yes</morla:visible>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="domain">
+    <rdfs:label>Domain</rdfs:label>
+    <rdfs:comment>Set the domain</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:typeValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:hasRDFS rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain" />
+    <morla:visible>yes</morla:visible>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.morlardf.net/templates/rdfs_property">
+    <morla:hasInput rdf:nodeID="type" />
+    <morla:hasInput rdf:nodeID="isDefinedBy" />
+    <morla:hasInput rdf:nodeID="range" />
+    <morla:hasInput rdf:nodeID="domain" />
+    <morla:hasInput rdf:nodeID="label" />
+    <rdfs:label>RDFS Property</rdfs:label>
+    <morla:hasVersion>0.4</morla:hasVersion>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Template" />
+    <morla:hasInput rdf:nodeID="comment" />
+    <morla:category rdf:resource="http://www.morlardf.net/templates/category#rdfs" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="isDefinedBy">
+    <rdfs:label>It is defined by</rdfs:label>
+    <rdfs:comment>Set the RDFS for this property</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:typeValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:hasRDFS rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" />
+    <morla:visible>yes</morla:visible>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="label">
+    <rdfs:label>label</rdfs:label>
+    <rdfs:comment>Set the label of your property</rdfs:comment>
+    <morla:minCardinality>1</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:typeValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+    <morla:hasRDFS rdf:resource="http://www.w3.org/2000/01/rdf-schema#label" />
+    <morla:visible>yes</morla:visible>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="range">
+    <rdfs:label>Range</rdfs:label>
+    <rdfs:comment>Range of this property</rdfs:comment>
+    <morla:minCardinality>0</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:typeValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:hasRDFS rdf:resource="http://www.w3.org/2000/01/rdf-schema#range" />
+    <morla:visible>yes</morla:visible>
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="type">
+    <rdfs:label>type</rdfs:label>
+    <rdfs:comment>Type</rdfs:comment>
+    <morla:minCardinality>1</morla:minCardinality>
+    <morla:maxCardinality>1</morla:maxCardinality>
+    <morla:typeValue rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <morla:hasRDFS rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" />
+    <morla:visible>no</morla:visible>
+    <morla:defaultValue rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+    <rdf:type rdf:resource="http://www.morlardf.net/morla#Input" />
+  </rdf:Description>
+
+</rdf:RDF>
+
