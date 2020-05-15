@@ -6,6 +6,7 @@ title: download
 <h2>Download</h2>
 
 <h3>morla source (GNU/Linux)</h3>
+Github <a href="https://github.com/bakulf/morla">repository</a><br />
 Current Release: 0.16.1 <a href="{{site.baseurl}}/src/morla-0.16.1.tar.gz">source code</a> (md5: 944fc4f999b145c74f91f20a5548bb76)<br />
 
 <h3>morla binary (Windows)</h3>
@@ -33,45 +34,3 @@ Current Relase: 0.13 <a href="{{site.baseurl}}/src/dmg/Morla-0.13-1.dmg">MacOSX 
     </ul>
   </li>
 </ul>
-
-<h2>CVS</h2>
-CVS is away to storing and tracking changes in the code between releases.
-The code in CVS is never guaranteed to work correctly, and if something is
-obviously broken you should not complain about it, this only slows the
-development process. However, if you feel a need to be more cutting-edge than
-necessary, or if you desire to hack on the morla project sources, you should
-use CVS.<br />
-
-<h3>Step 1. Check out the source</h3>
-Run the following commands in a directory that you have write access to (such 
-as your home dirctory):<br />
-<pre>
-cvs -d:pserver:anonymous@ippolita.net:/home/cvs login
-(Just hit enter for the password)
-cvs -z3 -d:pserver:anonymous@ippolita.net:/home/cvs co morla
-</pre>
-<h3>Step 2. Build again</h3>
-Once yoy have checked the source of the module, run the following commands:<br />
-
-<pre>
-cd morla
-./autogen.sh
-./configure --prefix=/usr
-</pre>
-If you see any errors here, you haven't installed everything you need.<br />
-<pre>
-make
-make install
-</pre>
-<h3>Step 3. Update the source</h3>
-When there are changes to morla's code, you will want to update you local copy.
-Run from the directory morla:<br />
-
-<pre>
-cvs update -dP
-./configure --prefix=/usr
-make
-make install
-</pre>
-The update will merge all the changes into the current files, and the make
-will rebuild the morla.
