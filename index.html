@@ -3,9 +3,11 @@ layout: default
 title: home
 ---
 
-<span id="container"></span>
+<span id="container">
+<h2>This project is no longer maintained</h2><br /><br />
+</span>
 
-<script>
+<script type="application/javascript">
 
 fetch("{{site.baseurl}}/index.rss").then(r => r.text()).then(xml => {
   const container = document.getElementById("container");
